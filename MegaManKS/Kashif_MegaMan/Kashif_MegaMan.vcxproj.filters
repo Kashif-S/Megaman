@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Kashif_MegaMan.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\barcontainer.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\barcontainermask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\barcontainersmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\barcontainersmallmask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\BigBlock.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\BigBlockMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\city looped.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\fireball.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\fireballmask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\fireballred.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\fireballredmask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\flying-enemy.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\flying-enemy-2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\flying-enemy-2-mask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\flying-enemy-mask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\greengun.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\greengunmask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\ground2.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\ground enemy.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\ground enemy mask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\lifebar.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\lifebarmask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\lifebarsmall.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\megamanfullless.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\megamanfulllessmask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\pause.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\pausemask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\redblock.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\redblockmask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\RocketEnemy.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\RocketEnemyMask.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\sky.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\snakeman.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\snakemanmasknoshadow.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="..\pics\titlescreen.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Kashif_MegaMan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MegamanObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackgroundObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponsObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RedBullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GroundEnemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FlyingEnemy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LifeBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Kashif_MegaMan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MegamanObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BackgroundObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponsObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RedBullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GroundEnemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FlyingEnemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LifeBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Kashif_MegaMan.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{23394687-8A91-4061-944F-725E6F8747D5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Kashif_MegaMan</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="..\pics\barcontainer.bmp" />
+    <None Include="..\pics\barcontainermask.bmp" />
+    <None Include="..\pics\barcontainersmall.bmp" />
+    <None Include="..\pics\barcontainersmallmask.bmp" />
+    <None Include="..\pics\BigBlock.bmp" />
+    <None Include="..\pics\BigBlockMask.bmp" />
+    <None Include="..\pics\city looped.bmp" />
+    <None Include="..\pics\fireball.bmp" />
+    <None Include="..\pics\fireballmask.bmp" />
+    <None Include="..\pics\fireballred.bmp" />
+    <None Include="..\pics\fireballredmask.bmp" />
+    <None Include="..\pics\flying-enemy-2-mask.bmp" />
+    <None Include="..\pics\flying-enemy-2.bmp" />
+    <None Include="..\pics\flying-enemy-mask.bmp" />
+    <None Include="..\pics\flying-enemy.bmp" />
+    <None Include="..\pics\greengun.bmp" />
+    <None Include="..\pics\greengunmask.bmp" />
+    <None Include="..\pics\ground enemy mask.bmp" />
+    <None Include="..\pics\ground enemy.bmp" />
+    <None Include="..\pics\ground2.bmp" />
+    <None Include="..\pics\lifebar.bmp" />
+    <None Include="..\pics\lifebarmask.bmp" />
+    <None Include="..\pics\lifebarsmall.bmp" />
+    <None Include="..\pics\megamanfullless.bmp" />
+    <None Include="..\pics\megamanfulllessmask.bmp" />
+    <None Include="..\pics\pause.bmp" />
+    <None Include="..\pics\pausemask.bmp" />
+    <None Include="..\pics\redblock.bmp" />
+    <None Include="..\pics\redblockmask.bmp" />
+    <None Include="..\pics\RocketEnemy.bmp" />
+    <None Include="..\pics\RocketEnemyMask.bmp" />
+    <None Include="..\pics\sky.bmp" />
+    <None Include="..\pics\snakeman.bmp" />
+    <None Include="..\pics\snakemanmasknoshadow.bmp" />
+    <None Include="..\pics\titlescreen.bmp" />
+    <None Include="Kashif_MegaMan.ico" />
+    <None Include="ReadMe.txt" />
+    <None Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BackgroundObject.h" />
+    <ClInclude Include="BlueBullet.h" />
+    <ClInclude Include="BulletObject.h" />
+    <ClInclude Include="EnemyObject.h" />
+    <ClInclude Include="FlyingEnemy.h" />
+    <ClInclude Include="Global.h" />
+    <ClInclude Include="GraphicsObject.h" />
+    <ClInclude Include="GroundEnemy.h" />
+    <ClInclude Include="Kashif_MegaMan.h" />
+    <ClInclude Include="LifeBar.h" />
+    <ClInclude Include="MegamanObject.h" />
+    <ClInclude Include="RedBullet.h" />
+    <ClInclude Include="Resource.h">
+      <FileType>CppHeader</FileType>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="WeaponsObject.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BackgroundObject.cpp" />
+    <ClCompile Include="BlueBullet.cpp" />
+    <ClCompile Include="BulletObject.cpp" />
+    <ClCompile Include="FlyingEnemy.cpp" />
+    <ClCompile Include="GraphicsObject.cpp" />
+    <ClCompile Include="GroundEnemy.cpp" />
+    <ClCompile Include="Kashif_MegaMan.cpp" />
+    <ClCompile Include="LifeBar.cpp" />
+    <ClCompile Include="MegamanObject.cpp" />
+    <ClCompile Include="RedBullet.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="WeaponsObject.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Kashif_MegaMan.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
